@@ -1,0 +1,1180 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Découvre l’histoire du Web, les réseaux sociaux, les jeux dans le navigateur, les URL, les domaines, les standards et la sécurité.">
+    <title>Web Explorer — Comprendre le Web</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+    <header class="site-header">
+        <a class="logo" href="#accueil" aria-label="Web Explorer, accueil">
+            <span class="logo-icon" aria-hidden="true">&lt;/&gt;</span>
+            Web<span>Explorer</span>
+        </a>
+
+        <nav aria-label="Navigation principale">
+            <a href="#histoire">Histoire</a>
+            <a href="#url">URL</a>
+            <a href="#domaines">Domaines</a>
+            <a href="#standards">Standards</a>
+            <a href="#securite">Sécurité</a>
+            <a href="#quiz">Quiz</a>
+            <a href="#sources">Sources</a>
+        </nav>
+    </header>
+
+    <main id="contenu">
+        <section class="hero" id="accueil" aria-labelledby="titre">
+            <div>
+                <p class="eyebrow">UN CLIC, UNE DÉCOUVERTE</p>
+
+                <h1 id="titre">
+                    Le Web fait partie de ta vie.<br>
+                    <span>Comprends comment il fonctionne.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Une adresse, un navigateur, un clic… Derrière ces gestes
+                    se cachent une histoire et des technologies.
+                    Des premières pages aux réseaux sociaux et aux jeux,
+                    explore cinq sujets pour naviguer avec curiosité et confiance.
+                </p>
+
+                <div class="hero-actions">
+                    <a class="button" href="#histoire">
+                        Commencer l’exploration →
+                    </a>
+                    <a class="button secondary" href="#quiz">
+                        Tester mes connaissances
+                    </a>
+                </div>
+            </div>
+
+            <aside class="browser-card" aria-label="Les étapes d’une visite sur le Web">
+                <div class="browser-bar">
+                    <span aria-hidden="true">● ● ●</span>
+                    <span>https://explorer.example</span>
+                </div>
+
+                <div class="browser-content">
+                    <span class="badge">LES COULISSES D’UN CLIC</span>
+                    <h2>Comment une page arrive-t-elle jusqu’à toi ?</h2>
+
+                    <ol>
+                        <li>Tu saisis une adresse.</li>
+                        <li>Le DNS aide à retrouver le serveur.</li>
+                        <li>Le navigateur demande la page.</li>
+                        <li>Il interprète le contenu et l’affiche.</li>
+                    </ol>
+
+                    <p>Le tout peut se produire en une fraction de seconde.</p>
+                </div>
+            </aside>
+        </section>
+
+        <div class="learning-strip">
+            <span>5 sujets à explorer</span>
+            <span>Des exemples concrets</span>
+            <span>Un quiz pour retenir</span>
+        </div>
+
+        <!-- 1. HISTOIRE DU WEB -->
+
+        <section id="histoire" class="section" aria-labelledby="titre-histoire">
+            <div class="section-heading">
+                <span class="number">01</span>
+
+                <div>
+                    <p class="eyebrow">REMONTONS LE TEMPS</p>
+                    <h2 id="titre-histoire">La timeline du Web</h2>
+                </div>
+            </div>
+
+            <p class="intro">
+                Internet est le réseau qui relie les appareils.
+                Le Web est un service qui utilise Internet pour consulter
+                des pages et des applications avec un navigateur.
+                Au fil du temps, il est devenu un espace pour apprendre,
+                discuter, partager des vidéos et jouer.
+            </p>
+
+            <p>
+                Cette timeline présente quelques repères :
+                elle ne raconte pas toute l’histoire du Web.
+                Facebook, par exemple, n’est pas le premier réseau social.
+            </p>
+
+            <ol class="timeline">
+                <li>
+                    <span class="year">1989</span>
+                    <div>
+                        <span class="tag">Naissance du Web</span>
+                        <h3>Une idée au CERN</h3>
+                        <p>
+                            Tim Berners-Lee propose un système pour partager
+                            des informations grâce à des liens entre documents.
+                            C’est le point de départ du World Wide Web.
+                        </p>
+                        <p class="small">
+                            Source :
+                            <a href="#source-cern">CERN — La naissance du Web</a>
+                        </p>
+                    </div>
+                </li>
+
+                <li>
+                    <span class="year">1990</span>
+                    <div>
+                        <span class="tag">Premiers outils</span>
+                        <h3>Le premier navigateur et le premier serveur</h3>
+                        <p>
+                            Tim Berners-Lee développe le premier navigateur-éditeur
+                            et le premier serveur web.
+                            Le premier site présente le projet World Wide Web.
+                        </p>
+                        <p class="small">
+                            Source :
+                            <a href="#source-cern-histoire">CERN — Histoire du Web</a>
+                        </p>
+                    </div>
+                </li>
+
+                <li>
+                    <span class="year">1991</span>
+                    <div>
+                        <span class="tag">Diffusion</span>
+                        <h3>Le projet s’ouvre à d’autres utilisateurs</h3>
+                        <p>
+                            En août, le logiciel du Web est annoncé
+                            dans des groupes de discussion sur Internet.
+                            L’intérêt pour le projet se développe au-delà du CERN.
+                        </p>
+                        <p class="small">
+                            Source :
+                            <a href="#source-cern-histoire">CERN — Histoire du Web</a>
+                        </p>
+                    </div>
+                </li>
+
+                <li>
+                    <span class="year">1993</span>
+                    <div>
+                        <span class="tag">Ouverture</span>
+                        <h3>Un Web librement utilisable</h3>
+                        <p>
+                            Le 30 avril, le CERN place le logiciel du Web
+                            dans le domaine public.
+                            Le navigateur Mosaic contribue également
+                            à populariser le Web grâce à son interface graphique.
+                        </p>
+                        <p class="small">
+                            Sources :
+                            <a href="#source-cern">CERN — La naissance du Web</a>
+                            et
+                            <a href="#source-cern-histoire">Histoire du Web</a>
+                        </p>
+                    </div>
+                </li>
+
+                <li>
+                    <span class="year">1994</span>
+                    <div>
+                        <span class="tag">Standards</span>
+                        <h3>La création du W3C</h3>
+                        <p>
+                            Tim Berners-Lee fonde le World Wide Web Consortium.
+                            Son rôle est de développer des standards communs
+                            pour favoriser un Web utilisable sur différents outils.
+                        </p>
+                        <p class="small">
+                            Source :
+                            <a href="#source-w3c-histoire">W3C — Histoire du consortium</a>
+                        </p>
+                    </div>
+                </li>
+
+                <li>
+                    <span class="year">2001</span>
+                    <div>
+                        <span class="tag">Jeux vidéo</span>
+                        <h3>RuneScape : un monde à explorer dans le navigateur</h3>
+                        <p>
+                            RuneScape est lancé le 4 janvier 2001.
+                            Ce jeu de rôle en ligne permet à des joueurs
+                            de se retrouver dans un univers de fantasy.
+                            À ses débuts, il est jouable dans un navigateur
+                            grâce à la technologie Java.
+                        </p>
+                        <p>
+                            <strong>Ce que cela illustre :</strong>
+                            le navigateur peut accueillir un jeu multijoueur,
+                            et pas seulement afficher des documents.
+                            RuneScape n’est toutefois pas le premier jeu sur le Web.
+                        </p>
+                        <p class="small">
+                            Sources :
+                            <a href="#source-runescape">Jagex — Lancement de RuneScape</a>
+                            et
+                            <a href="#source-jagex">Jagex — Origines du projet</a>
+                        </p>
+                    </div>
+                </li>
+
+                <li>
+                    <span class="year">2004</span>
+                    <div>
+                        <span class="tag">Réseaux sociaux</span>
+                        <h3>Facebook relie les personnes</h3>
+                        <p>
+                            Facebook est lancé le 4 février 2004,
+                            initialement pour les étudiants de Harvard,
+                            sous le nom « TheFacebook ».
+                            Le service s’ouvre ensuite à un public plus large.
+                        </p>
+                        <p>
+                            <strong>Le principe :</strong>
+                            créer un profil, établir des contacts et partager
+                            des publications. Les utilisateurs produisent
+                            eux-mêmes une partie du contenu du Web.
+                        </p>
+                        <p class="small">
+                            Source :
+                            <a href="#source-facebook">Meta — Histoire de Facebook</a>
+                        </p>
+                    </div>
+                </li>
+
+                <li>
+                    <span class="year">2005</span>
+                    <div>
+                        <span class="tag">Vidéos et communautés</span>
+                        <h3>YouTube : publier et partager des vidéos</h3>
+                        <p>
+                            Le 23 avril 2005, la première vidéo de YouTube,
+                            « Me at the zoo », est publiée.
+                            La plateforme permet de partager des vidéos
+                            et de former des communautés autour de chaînes.
+                        </p>
+                        <p>
+                            <strong>Le lien avec les jeux vidéo :</strong>
+                            les vidéos peuvent servir à montrer une partie,
+                            expliquer une stratégie ou apprendre à jouer.
+                            Regarder une vidéo de jeu sur le Web
+                            est différent de jouer directement dans le navigateur.
+                        </p>
+                        <p class="small">
+                            Source :
+                            <a href="#source-youtube">YouTube — La première vidéo</a>
+                        </p>
+                    </div>
+                </li>
+
+                <li>
+                    <span class="year">2010</span>
+                    <div>
+                        <span class="tag">Réseaux sociaux et mobile</span>
+                        <h3>Instagram met les images au premier plan</h3>
+                        <p>
+                            Instagram apparaît le 6 octobre 2010.
+                            Le service se développe d’abord comme une application
+                            mobile centrée sur le partage de photos.
+                        </p>
+                        <p>
+                            <strong>À comprendre :</strong>
+                            les réseaux sociaux ne se limitent pas aux sites web.
+                            Ils peuvent aussi être accessibles par des applications
+                            installées sur un téléphone.
+                            Une application connectée utilise Internet,
+                            mais son interface n’est pas forcément une page web.
+                        </p>
+                        <p class="small">
+                            Source :
+                            <a href="#source-instagram">Meta — Les débuts d’Instagram</a>
+                        </p>
+                    </div>
+                </li>
+
+                <li>
+                    <span class="year">2011</span>
+                    <div>
+                        <span class="tag">Jeux vidéo et 3D</span>
+                        <h3>WebGL ouvre la porte à la 3D sans plugin</h3>
+                        <p>
+                            Le 3 mars 2011, le groupe Khronos publie
+                            la spécification WebGL 1.0.
+                            Cette technologie permet d’utiliser l’accélération
+                            graphique pour afficher de la 3D dans le navigateur,
+                            sans installer de plugin.
+                        </p>
+                        <p>
+                            <strong>Pour les jeux :</strong>
+                            JavaScript et WebGL permettent de créer
+                            des scènes interactives en 3D.
+                            WebGL est un outil graphique, pas un jeu en lui-même.
+                        </p>
+                        <p class="small">
+                            Source :
+                            <a href="#source-webgl">Khronos — Publication de WebGL 1.0</a>
+                        </p>
+                    </div>
+                </li>
+
+                <li>
+                    <span class="year">2014</span>
+                    <div>
+                        <span class="tag">Multimédia et jeux</span>
+                        <h3>HTML5 franchit une étape de standardisation</h3>
+                        <p>
+                            Le 28 octobre 2014, le W3C publie HTML5
+                            comme recommandation.
+                            Cela marque une étape importante :
+                            certaines fonctionnalités existaient déjà
+                            dans les navigateurs avant cette date.
+                        </p>
+                        <p>
+                            Avec JavaScript et les API du navigateur,
+                            la plateforme web permet de combiner dessins,
+                            vidéos, sons et interactions.
+                            Pour un jeu, Canvas peut servir à dessiner en 2D
+                            et WebGL à afficher de la 3D.
+                        </p>
+                        <p class="small">
+                            Sources :
+                            <a href="#source-html5">W3C — Recommandation HTML5</a>
+                            et
+                            <a href="#source-jeux-mdn">MDN — Développement de jeux</a>
+                        </p>
+                    </div>
+                </li>
+
+                <li>
+                    <span class="year">2020–2021</span>
+                    <div>
+                        <span class="tag">Fin d’une technologie</span>
+                        <h3>La fin de Flash Player</h3>
+                        <p>
+                            Flash a servi à diffuser des animations
+                            et des jeux dans le navigateur avec un plugin.
+                            Adobe arrête le support de Flash Player
+                            le 31 décembre 2020, puis bloque l’exécution
+                            des contenus dans Flash Player à partir du 12 janvier 2021.
+                        </p>
+                        <p>
+                            Les technologies modernes comme HTML,
+                            JavaScript et WebGL permettent de créer
+                            de nouvelles expériences sans Flash.
+                            Un ancien jeu Flash ne devient cependant pas
+                            automatiquement un jeu HTML5 :
+                            il faut le porter ou utiliser une solution de préservation.
+                        </p>
+                        <p class="small">
+                            Sources :
+                            <a href="#source-flash">Adobe — Fin de Flash Player</a>
+                            et
+                            <a href="#source-jeux-mdn">MDN — Développement de jeux</a>
+                        </p>
+                    </div>
+                </li>
+
+                <li>
+                    <span class="year">Aujourd’hui</span>
+                    <div>
+                        <span class="tag">Des usages variés</span>
+                        <h3>Apprendre, échanger, créer et jouer</h3>
+                        <p>
+                            Le navigateur peut afficher un cours,
+                            ouvrir un réseau social ou faire fonctionner un jeu.
+                            Ces usages reposent sur des technologies web,
+                            avec des enjeux de performance,
+                            d’accessibilité et de protection des données.
+                        </p>
+                        <p class="small">
+                            Pour approfondir :
+                            <a href="#standards">les standards</a>
+                            et
+                            <a href="#securite">la sécurité web</a>.
+                        </p>
+                    </div>
+                </li>
+            </ol>
+
+            <div class="callout">
+                <strong>À retenir : Internet et Web ne sont pas synonymes</strong>
+                <p>
+                    Un jeu dans le navigateur utilise les technologies du Web.
+                    Un jeu installé sur ordinateur ou console peut utiliser
+                    Internet pour le multijoueur sans passer par une page web.
+                    De même, un réseau social peut proposer un site
+                    et une application mobile.
+                </p>
+            </div>
+
+            <details>
+                <summary>Qu’est-ce qu’un réseau social ?</summary>
+                <p>
+                    C’est un service qui permet de créer des relations
+                    et d’échanger des contenus avec d’autres utilisateurs :
+                    messages, photos, vidéos ou commentaires.
+                    Les profils, abonnements et communautés organisent
+                    ces échanges.
+                </p>
+                <p>
+                    Avant de publier, réfléchis à qui pourra voir ton contenu.
+                    Vérifie aussi les informations que tu partages.
+                </p>
+            </details>
+
+            <details>
+                <summary>HTML5 est-il un moteur de jeu ?</summary>
+                <p>
+                    Non. « Jeu HTML5 » est une expression souvent utilisée
+                    pour parler d’un jeu construit avec les technologies
+                    modernes du Web.
+                    HTML organise la page ; JavaScript programme les actions ;
+                    Canvas ou WebGL peuvent afficher les graphismes.
+                </p>
+                <p>
+                    Un moteur ou une bibliothèque de jeu peut aider
+                    à gérer les animations, les collisions et les scènes.
+                </p>
+            </details>
+        </section>
+
+        <!-- 2. URL -->
+
+        <section id="url" class="section" aria-labelledby="titre-url">
+            <div class="section-heading">
+                <span class="number">02</span>
+                <div>
+                    <p class="eyebrow">LIRE UNE ADRESSE</p>
+                    <h2 id="titre-url">Qu’est-ce qu’une URL ?</h2>
+                </div>
+            </div>
+
+            <p class="intro">
+                Une URL, pour <em>Uniform Resource Locator</em>, est une adresse
+                qui indique où trouver une ressource et comment y accéder.
+                Elle peut désigner une page, une image ou un fichier.
+            </p>
+
+            <div class="url-example">
+                <code>https://cours.example.org/web?niveau=debutant#quiz</code>
+            </div>
+
+            <div class="cards">
+                <article class="card">
+                    <span class="tag">https</span>
+                    <h3>Le protocole</h3>
+                    <p>
+                        Il indique comment communiquer.
+                        HTTPS utilise TLS pour protéger les échanges.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <span class="tag">cours.example.org</span>
+                    <h3>Le nom d’hôte</h3>
+                    <p>
+                        Il identifie le serveur visé.
+                        Ici, « cours » est un sous-domaine de « example.org ».
+                    </p>
+                </article>
+
+                <article class="card">
+                    <span class="tag">/web</span>
+                    <h3>Le chemin</h3>
+                    <p>
+                        Il désigne une ressource sur le serveur.
+                        Il ne correspond pas forcément à un fichier réel.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <span class="tag">?niveau=debutant</span>
+                    <h3>Les paramètres</h3>
+                    <p>
+                        Ils transmettent des informations,
+                        par exemple un filtre ou une recherche.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <span class="tag">#quiz</span>
+                    <h3>Le fragment</h3>
+                    <p>
+                        Il peut pointer vers une partie de la page.
+                        Il n’est pas envoyé au serveur dans la requête HTTP.
+                    </p>
+                </article>
+            </div>
+
+            <div class="workshop">
+                <h3>À toi de jouer : décompose une URL</h3>
+
+                <p>
+                    Utilise l’exemple ou saisis une adresse complète.
+                    L’analyse se fait dans ton navigateur, sans visiter le site.
+                </p>
+
+                <form id="url-form">
+                    <label for="url-input">Adresse à analyser</label>
+                    <div class="input-row">
+                        <input id="url-input" type="text" value="https://cours.example.org/web?niveau=debutant#quiz"
+                            spellcheck="false" autocomplete="off" required>
+                        <button class="button" type="submit">Analyser</button>
+                    </div>
+                </form>
+
+                <p id="url-message" role="status"></p>
+                <dl id="url-result" class="results"></dl>
+            </div>
+        </section>
+
+        <!-- 3. NOMS DE DOMAINE -->
+
+        <section id="domaines" class="section" aria-labelledby="titre-domaines">
+            <div class="section-heading">
+                <span class="number">03</span>
+                <div>
+                    <p class="eyebrow">DES NOMS FACILES À RETENIR</p>
+                    <h2 id="titre-domaines">Les noms de domaine</h2>
+                </div>
+            </div>
+
+            <p class="intro">
+                Un nom de domaine est un nom lisible par les humains.
+                Le DNS, ou <em>Domain Name System</em>, permet notamment
+                de retrouver les adresses IP associées à ce nom.
+            </p>
+
+            <div class="domain-display" aria-label="Décomposition de cours.example.org">
+                <div>
+                    <strong>cours</strong>
+                    <span>Sous-domaine</span>
+                </div>
+                <b aria-hidden="true">.</b>
+                <div>
+                    <strong>example</strong>
+                    <span>Nom choisi</span>
+                </div>
+                <b aria-hidden="true">.</b>
+                <div>
+                    <strong>org</strong>
+                    <span>Extension (TLD)</span>
+                </div>
+            </div>
+
+            <div class="cards">
+                <article class="card">
+                    <h3>Le rôle du DNS</h3>
+                    <p>
+                        Imagine un annuaire : tu connais un nom,
+                        il aide ton appareil à retrouver une adresse.
+                        Un même nom peut être associé à plusieurs adresses IP.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>Les extensions</h3>
+                    <p>
+                        « .be » et « .fr » sont liées à des pays.
+                        « .com » et « .org » sont des extensions génériques.
+                        Une extension ne garantit pas la fiabilité d’un site.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>L’enregistrement</h3>
+                    <p>
+                        Un domaine s’enregistre auprès d’un bureau
+                        d’enregistrement. Il faut généralement le renouveler.
+                        Le domaine et l’hébergement sont deux services distincts.
+                    </p>
+                </article>
+            </div>
+
+            <details>
+                <summary>Est-ce que « www » est obligatoire ?</summary>
+                <p>
+                    Non. « www » est un sous-domaine utilisé par convention.
+                    Un site peut fonctionner sans lui.
+                    Les adresses avec et sans « www » peuvent être configurées
+                    pour renvoyer vers le même site.
+                </p>
+            </details>
+
+            <details>
+                <summary>
+                    Un nom de domaine et une URL, est-ce la même chose ?
+                </summary>
+                <p>
+                    Non. Dans « https://example.org/cours »,
+                    le domaine est « example.org ».
+                    L’URL complète contient aussi le protocole et le chemin.
+                </p>
+            </details>
+        </section>
+
+        <!-- 4. STANDARDS -->
+
+        <section id="standards" class="section" aria-labelledby="titre-standards">
+            <div class="section-heading">
+                <span class="number">04</span>
+                <div>
+                    <p class="eyebrow">DES RÈGLES COMMUNES</p>
+                    <h2 id="titre-standards">Les standards du Web</h2>
+                </div>
+            </div>
+
+            <p class="intro">
+                Les standards définissent des règles communes pour que
+                les technologies du Web fonctionnent ensemble.
+                Ils favorisent la compatibilité entre navigateurs,
+                même si des différences peuvent subsister.
+            </p>
+
+            <div class="cards">
+                <article class="card">
+                    <span class="language">HTML</span>
+                    <h3>La structure</h3>
+                    <p>
+                        Décrit le sens et l’organisation du contenu :
+                        titres, paragraphes, liens et formulaires.
+                    </p>
+                    <pre><code>&lt;h1&gt;Bonjour le Web !&lt;/h1&gt;</code></pre>
+                    <p class="small">
+                        Le HTML Living Standard est maintenu par le WHATWG.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <span class="language">CSS</span>
+                    <h3>La présentation</h3>
+                    <p>
+                        Définit les couleurs, la mise en page,
+                        les espacements et l’adaptation aux écrans.
+                    </p>
+                    <pre><code>h1 { color: #023047; }</code></pre>
+                    <p class="small">
+                        Les spécifications CSS sont développées au W3C.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <span class="language">JavaScript</span>
+                    <h3>Les interactions</h3>
+                    <p>
+                        Permet de réagir aux actions :
+                        corriger un quiz ou analyser une adresse.
+                    </p>
+                    <pre><code>button.addEventListener(
+  "click", afficherResultat
+);</code></pre>
+                    <p class="small">
+                        Le langage repose sur le standard ECMAScript
+                        d’Ecma International.
+                    </p>
+                </article>
+            </div>
+
+            <div class="callout">
+                <strong>Un Web accessible à davantage de personnes</strong>
+                <p>
+                    Les WCAG du W3C donnent des recommandations d’accessibilité :
+                    contrastes lisibles, navigation au clavier, textes alternatifs
+                    pour les images et champs de formulaire bien étiquetés.
+                </p>
+            </div>
+        </section>
+
+        <!-- 5. SÉCURITÉ -->
+
+        <section id="securite" class="section" aria-labelledby="titre-securite">
+            <div class="section-heading">
+                <span class="number">05</span>
+                <div>
+                    <p class="eyebrow">LES BONS RÉFLEXES</p>
+                    <h2 id="titre-securite">La sécurité web</h2>
+                </div>
+            </div>
+
+            <p class="intro">
+                La sécurité repose sur les protections techniques
+                et sur nos habitudes. Voici quelques réflexes utiles.
+            </p>
+
+            <div class="cards">
+                <article class="card">
+                    <span class="tag">01 · Connexion</span>
+                    <h3>Comprendre HTTPS</h3>
+                    <p>
+                        HTTPS protège les données pendant leur transport
+                        et aide à authentifier le serveur.
+                        Un site frauduleux peut aussi utiliser HTTPS :
+                        cela ne garantit pas l’honnêteté du site.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <span class="tag">02 · Comptes</span>
+                    <h3>Protéger ses accès</h3>
+                    <p>
+                        Utilise des mots de passe longs et uniques,
+                        un gestionnaire de mots de passe et l’authentification
+                        à plusieurs facteurs quand elle est disponible.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <span class="tag">03 · Messages</span>
+                    <h3>Repérer le phishing</h3>
+                    <p>
+                        Le phishing, ou hameçonnage, cherche à te tromper
+                        en imitant un organisme. Méfie-toi des demandes urgentes
+                        et vérifie l’adresse avant de communiquer des informations.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <span class="tag">04 · Appareils</span>
+                    <h3>Garder ses outils à jour</h3>
+                    <p>
+                        Les mises à jour corrigent notamment des failles.
+                        Mets à jour ton navigateur et ton système,
+                        et conserve des sauvegardes de tes fichiers importants.
+                    </p>
+                </article>
+            </div>
+
+            <div class="workshop">
+                <h3>Le piège du nom rassurant</h3>
+                <p>Observe cette adresse fictive :</p>
+
+                <code class="suspicious">https://banque.example.org.connexion.example.net</code>
+
+                <details>
+                    <summary>Quel est le domaine enregistrable ici ?</summary>
+                    <p>
+                        C’est <strong>example.net</strong>.
+                        « banque.example.org.connexion » est placé devant
+                        comme sous-domaines. La présence d’un nom familier
+                        au début ne prouve pas que tu es sur le bon site.
+                    </p>
+                    <p>
+                        En cas de doute, ouvre directement le site officiel
+                        avec une adresse connue ou un favori.
+                    </p>
+                </details>
+            </div>
+        </section>
+
+        <!-- QUIZ -->
+
+        <section id="quiz" class="section quiz-section" aria-labelledby="titre-quiz">
+            <div class="section-heading">
+                <span class="number">?</span>
+                <div>
+                    <p class="eyebrow">VÉRIFIE CE QUE TU AS RETENU</p>
+                    <h2 id="titre-quiz">Le petit quiz du Web</h2>
+                </div>
+            </div>
+
+            <p>
+                Choisis une réponse par question,
+                puis découvre les explications.
+            </p>
+
+            <form id="quiz-form">
+                <fieldset>
+                    <legend>1. Qui a inventé le Web au CERN ?</legend>
+                    <label>
+                        <input type="radio" name="q1" value="0" required>
+                        Tim Berners-Lee
+                    </label>
+                    <label>
+                        <input type="radio" name="q1" value="1">
+                        Alan Turing
+                    </label>
+                    <label>
+                        <input type="radio" name="q1" value="2">
+                        Bill Gates
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>2. Dans une URL, à quoi sert « #quiz » ?</legend>
+                    <label>
+                        <input type="radio" name="q2" value="0" required>
+                        À nommer le serveur
+                    </label>
+                    <label>
+                        <input type="radio" name="q2" value="1">
+                        À identifier un fragment de la ressource
+                    </label>
+                    <label>
+                        <input type="radio" name="q2" value="2">
+                        À chiffrer la connexion
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>
+                        3. Quel système aide à retrouver l’IP d’un domaine ?
+                    </legend>
+                    <label>
+                        <input type="radio" name="q3" value="0" required>
+                        CSS
+                    </label>
+                    <label>
+                        <input type="radio" name="q3" value="1">
+                        HTML
+                    </label>
+                    <label>
+                        <input type="radio" name="q3" value="2">
+                        DNS
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>
+                        4. Quel langage définit principalement la présentation ?
+                    </legend>
+                    <label>
+                        <input type="radio" name="q4" value="0" required>
+                        CSS
+                    </label>
+                    <label>
+                        <input type="radio" name="q4" value="1">
+                        HTML
+                    </label>
+                    <label>
+                        <input type="radio" name="q4" value="2">
+                        SQL
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>
+                        5. Un site en HTTPS est-il forcément honnête ?
+                    </legend>
+                    <label>
+                        <input type="radio" name="q5" value="0" required>
+                        Oui, toujours
+                    </label>
+                    <label>
+                        <input type="radio" name="q5" value="1">
+                        Non, HTTPS protège la connexion
+                    </label>
+                    <label>
+                        <input type="radio" name="q5" value="2">
+                        Seulement sur téléphone
+                    </label>
+                </fieldset>
+
+                <div class="hero-actions">
+                    <button class="button" type="submit">
+                        Voir mon résultat
+                    </button>
+                    <button class="button secondary" type="reset">
+                        Recommencer
+                    </button>
+                </div>
+            </form>
+
+            <div id="quiz-result" class="quiz-result" role="status" aria-live="polite"></div>
+
+            <noscript>
+                Active JavaScript pour obtenir la correction interactive du quiz.
+            </noscript>
+        </section>
+
+        <!-- SOURCES -->
+
+        <section id="sources" class="section" aria-labelledby="titre-sources">
+            <div class="section-heading">
+                <span class="number">↗</span>
+                <div>
+                    <p class="eyebrow">POUR ALLER PLUS LOIN</p>
+                    <h2 id="titre-sources">Sources et ressources</h2>
+                </div>
+            </div>
+
+            <p>
+                Le contenu est une synthèse pédagogique des ressources suivantes.
+                Les sources des nouvelles dates ont été consultées
+                le 9 octobre 2026. Certaines pages sont en anglais.
+                Les liens ouvrent les sites officiels des organismes
+                ou éditeurs cités.
+            </p>
+
+            <h3>Histoire du Web, réseaux sociaux et jeux vidéo</h3>
+
+            <ul class="source-list">
+                <li id="source-cern">
+                    <a href="https://home.cern/fr/science/computing/birth-web/">
+                        CERN — La naissance du Web ↗
+                    </a>
+                    <p>
+                        Invention du Web en 1989 et mise à disposition
+                        du logiciel dans le domaine public en 1993.
+                    </p>
+                </li>
+
+                <li id="source-cern-histoire">
+                    <a href="https://home.cern/science/computing/the-birth-of-the-web/short-history-web/">
+                        CERN — Une courte histoire du Web ↗
+                    </a>
+                    <p>
+                        Premiers outils en 1990, diffusion en 1991
+                        et rôle de Mosaic en 1993. Ressource en anglais.
+                    </p>
+                </li>
+
+                <li id="source-w3c-histoire">
+                    <a href="https://www.w3.org/about/history/">
+                        W3C — Histoire du consortium ↗
+                    </a>
+                    <p>
+                        Fondation du W3C en 1994. Ressource en anglais.
+                    </p>
+                </li>
+
+                <li id="source-runescape">
+                    <a href="https://www.jagex.com/news/runescape-launches-on-ios-and-android">
+                        Jagex — Retour sur le lancement de RuneScape ↗
+                    </a>
+                    <p>
+                        Communiqué de l’éditeur rappelant
+                        le lancement du jeu le 4 janvier 2001.
+                        Ressource en anglais.
+                    </p>
+                </li>
+
+                <li id="source-jagex">
+                    <a href="https://www.jagex.com/who-we-are">
+                        Jagex — Les origines du projet ↗
+                    </a>
+                    <p>
+                        Présentation de l’éditeur et de son idée
+                        d’un univers de jeu accessible dans le navigateur.
+                        Ressource en anglais.
+                    </p>
+                </li>
+
+                <li id="source-facebook">
+                    <a href="https://about.fb.com/fr/company.info/">
+                        Meta — Histoire de Facebook ↗
+                    </a>
+                    <p>
+                        Chronologie officielle, dont le lancement
+                        de Facebook le 4 février 2004.
+                    </p>
+                </li>
+
+                <li id="source-youtube">
+                    <a href="https://blog.youtube/news-and-events/youtube-to-z-happybirthdayyoutube/">
+                        YouTube — La première vidéo ↗
+                    </a>
+                    <p>
+                        Article officiel rappelant la publication
+                        de « Me at the zoo » le 23 avril 2005.
+                        Ressource en anglais.
+                    </p>
+                </li>
+
+                <li id="source-instagram">
+                    <a href="https://about.fb.com/ja/news/2020/10/birthday/">
+                        Meta — Les dix ans d’Instagram ↗
+                    </a>
+                    <p>
+                        Article officiel confirmant la naissance
+                        d’Instagram le 6 octobre 2010.
+                        Ressource en japonais : la traduction du navigateur
+                        peut aider à la lire.
+                    </p>
+                </li>
+
+                <li id="source-webgl">
+                    <a href="https://www.khronos.org/news/press/khronos-releases-final-webgl-1.0-specification">
+                        Khronos — Publication de WebGL 1.0 ↗
+                    </a>
+                    <p>
+                        Annonce du 3 mars 2011 :
+                        graphismes 3D accélérés dans le navigateur
+                        sans plugin. Ressource en anglais.
+                    </p>
+                </li>
+
+                <li id="source-html5">
+                    <a href="https://www.w3.org/press-releases/2014/html5-rec/">
+                        W3C — Recommandation HTML5 ↗
+                    </a>
+                    <p>
+                        Annonce de la recommandation HTML5
+                        le 28 octobre 2014. Ressource en anglais.
+                    </p>
+                </li>
+
+                <li id="source-flash">
+                    <a href="https://www.adobe.com/products/flashplayer/end-of-life-alternative.html">
+                        Adobe — Fin de Flash Player ↗
+                    </a>
+                    <p>
+                        Fin du support le 31 décembre 2020
+                        et blocage des contenus à partir du 12 janvier 2021.
+                        Ressource en anglais.
+                    </p>
+                </li>
+
+                <li id="source-jeux-mdn">
+                    <a href="https://developer.mozilla.org/fr/docs/Games">
+                        MDN — Développement de jeux vidéo ↗
+                    </a>
+                    <p>
+                        Technologies pour créer des jeux sur le Web :
+                        JavaScript, Canvas, WebGL et autres API.
+                    </p>
+                </li>
+            </ul>
+
+            <h3>URL et noms de domaine</h3>
+
+            <ul class="source-list">
+                <li>
+                    <a
+                        href="https://developer.mozilla.org/fr/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_URL">
+                        MDN — Qu’est-ce qu’une URL ? ↗
+                    </a>
+                    <p>
+                        Protocole, hôte, chemin, paramètres et fragment.
+                    </p>
+                </li>
+
+                <li>
+                    <a
+                        href="https://developer.mozilla.org/fr/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_domain_name">
+                        MDN — Comprendre les noms de domaine ↗
+                    </a>
+                    <p>
+                        Organisation des domaines, DNS et enregistrement.
+                    </p>
+                </li>
+
+                <li>
+                    <a
+                        href="https://developer.mozilla.org/fr/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works">
+                        MDN — Comment fonctionne le Web ↗
+                    </a>
+                    <p>
+                        Échanges entre navigateur et serveur.
+                    </p>
+                </li>
+            </ul>
+
+            <h3>Standards et accessibilité</h3>
+
+            <ul class="source-list">
+                <li>
+                    <a href="https://html.spec.whatwg.org/">
+                        WHATWG — HTML Living Standard ↗
+                    </a>
+                    <p>
+                        Spécification officielle du HTML.
+                        Ressource en anglais.
+                    </p>
+                </li>
+
+                <li>
+                    <a href="https://www.w3.org/Style/CSS/">
+                        W3C — Cascading Style Sheets ↗
+                    </a>
+                    <p>
+                        Spécifications et ressources CSS.
+                    </p>
+                </li>
+
+                <li>
+                    <a href="https://tc39.es/ecma262/">
+                        Ecma International — ECMAScript ↗
+                    </a>
+                    <p>
+                        Standard du langage utilisé par JavaScript.
+                        Ressource en anglais.
+                    </p>
+                </li>
+
+                <li>
+                    <a href="https://www.w3.org/WAI/guid-tech.html">
+                        W3C WAI — Standards d’accessibilité ↗
+                    </a>
+                    <p>
+                        Présentation des recommandations d’accessibilité.
+                        Ressource en anglais.
+                    </p>
+                </li>
+            </ul>
+
+            <h3>Sécurité web</h3>
+
+            <ul class="source-list">
+                <li>
+                    <a href="https://developer.mozilla.org/fr/docs/Glossary/HTTPS">
+                        MDN — HTTPS ↗
+                    </a>
+                    <p>
+                        Protection des communications HTTP.
+                    </p>
+                </li>
+
+                <li>
+                    <a
+                        href="https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/comment-reconnaitre-un-mail-de-phishing-ou-dhameconnage">
+                        Cybermalveillance.gouv.fr — Reconnaître le phishing ↗
+                    </a>
+                    <p>
+                        Signaux d’alerte et vérification des adresses.
+                    </p>
+                </li>
+
+                <li>
+                    <a
+                        href="https://www.cybermalveillance.gouv.fr/tous-nos-contenus/bonnes-pratiques/10-mesures-essentielles-assurer-securite-numerique">
+                        Cybermalveillance.gouv.fr — Les mesures essentielles ↗
+                    </a>
+                    <p>
+                        Mots de passe, double authentification,
+                        mises à jour et sauvegardes.
+                    </p>
+                </li>
+            </ul>
+
+            <h3>Identité visuelle</h3>
+
+            <ul class="source-list">
+                <li>
+                    <a href="https://coolors.co/palette/8ecae6-219ebc-023047-ffb703-fb8500">
+                        Coolors — Palette du site ↗
+                    </a>
+                    <p>
+                        Les cinq couleurs choisies pour ce projet.
+                    </p>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p><strong>WebExplorer</strong> · Projet pédagogique</p>
+        <a href="#accueil">Retour en haut ↑</a>
+    </footer>
+</body>
+
+</html>
